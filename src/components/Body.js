@@ -1,8 +1,11 @@
 import React from "react";
-const Body = () => {
-    return (
-        <p>Hello, im <code>rDaedalus</code></p>
-    );
-};
 
-export default Body;
+
+const Body = (props) => (
+    <div>
+        {props.myFunc(2, 5)}
+    </div>
+);
+
+export default Body
+
