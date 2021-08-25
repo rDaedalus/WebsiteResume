@@ -10,7 +10,7 @@ export default class App extends Component {
 
     return (
       <div className="App">
-        <Header title="Hello from App" myFunc={(a, b) => a + b} />
+        <Header title="Hello im rDaedalus" myFunc={(a, b) => a + b} />
         <Body text="i am radaedlus" myFunc={(a, b) => a + b} />
       </div>
     );
